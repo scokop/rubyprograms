@@ -1,7 +1,7 @@
 =begin
 doctest: This tests the output of the string conversion
 >> multi_line_string = "Welcome to the forum.\nHere you can learn Ruby.\nAlong with other members.\n"
->> converter(multi_line_string)
+>> linify(multi_line_string)
 => "Line 1: Welcome to the forum.\nLine 2: Here you can learn Ruby.\nLine 3: Along with other members.\n"
 
 =end
