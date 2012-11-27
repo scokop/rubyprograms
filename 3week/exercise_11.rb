@@ -1,24 +1,27 @@
 =begin
 
-doctest: This tests whether numbers are sorting correctly.
->> numbers = [12,34,456,4579]
->> odds_evens(numbers)
-=> "12 even\n23 odd\n256 even\n4579 odd\n"
-
+doctest: This tests whether even numbers are sorting correctly.
+>> odds_evens(12)
+=> "even"
+doctest: This tests whether odd numbers ore sorting correctly. 
+>> odds_evens(23)
+=> "odd"
 =end
 
-def odds_evens(numbers)
-  output = ""
+def odds_evens(*numbers)
   numbers.each do |number|
     if number % 2 == 0
-      output << "#{number} even\n"
+      return "even"
     else
-      output << "#{number} odd\n"
+      return "odd"
     end
   end
-  return output
 end
 
 
-numbers = [12,23,456,4579]
-puts odds_evens(numbers)
+numbers = [12,23,456,123,4579]
+numbers.each do |number| 
+  puts "Number #{number} is #{odds_evens(number)}."
+end
+
+
