@@ -20,7 +20,7 @@ end
 
 def output_results(text_results)
   text_results.each_key do | key |
-    puts "There are %d %s." % text_results[key]
+    puts "There are %s %s." % text_results[key]
   end
 end
 
