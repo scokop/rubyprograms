@@ -1,0 +1,9 @@
+declaration.txt
+exercise_1.rb
+exercise_2.rb
+exercise_5.rb
+grandma_test.rb
+magna.txt
+old-inventory.txt
+p026zdeafgm2.rb
+swapper.rb

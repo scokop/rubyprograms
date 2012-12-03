@@ -1,0 +1,12 @@
+declaration.txt
+exercise_1.rb
+exercise_2.rb
+exercise_5.rb
+fake_file1.txt
+fake_file2.txt
+grandma_test.rb
+magna.txt
+new-inventory.txt
+old-inventory.txt
+p026zdeafgm2.rb
+p028swapcontents.rb
